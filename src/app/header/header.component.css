@@ -1,0 +1,98 @@
+.headerCont {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 40px 18px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    border-bottom: 2px solid #a0d976;
+}
+
+app-navigation {
+  width: calc(100% - 460px);
+}
+
+.headerLogo {
+    width: 170.8px;
+  object-fit: fill;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.headerLogo > img {
+    width: inherit;
+  height: 35.8px;
+  object-fit: inherit;
+}
+
+.userGreet {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+
+.greetImg {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.greetImg > img {
+  width: inherit;
+  height: inherit;
+  object-fit: inherit;
+}
+
+.greetings {
+  display: block;
+  font-family: OpenSans-Regular;
+  font-size: 0.75rem;
+  line-height: 16px;
+  color: #4a4a4a;
+}
+
+.userName {
+  display: block;
+  font-family: OpenSans-Regular;
+  font-size: 1rem;
+  line-height: 16px;
+  color: #383838;
+}
+
+app-button {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 1050px) {
+  .headerLogo {
+    width: 110.8px;
+  }
+
+  app-navigation {
+    width: calc(100% - 207px) !important;
+  }
+
+  .userGreet {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .headerCont {
+    padding: 0 15px 18px;
+  }
+  
+  app-navigation {
+    width: calc(100% - 403px);
+  }
+
+  .userGreet {
+    margin-left: 20px;
+  }
+}

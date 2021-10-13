@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-top: 22px;
+}
+
+.lowbar {
+    max-width: 470px;
+    margin: 0 auto 12px;
+}
+
+.lowbar ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.lowbar ul li {
+    font-family: OpenSans-Light;
+    font-size: 0.875rem;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.lowbar ul li span {
+    margin-left: 20px;
+}
+
+.footerText {
+    margin: 0;
+    text-align: center;
+    font-family: OpenSans-Regular;
+    font-size: 0.6875rem;
+    line-height: 2;
+    letter-spacing: 0.35px;
+}
