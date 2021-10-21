@@ -17,3 +17,7 @@
     font-family: OpenSans-Light;
     src: url(assets/fonts/OpenSans-Light.ttf) format("truetype");
 }
+
+body {
+    margin: 0;
+}
