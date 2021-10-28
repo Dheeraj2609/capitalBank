@@ -1,0 +1,33 @@
+{
+  "data1": [
+    {
+      "title": "My Loans",
+      "accNo": "0002101001234 - Lesedi Britt",
+      "balTitle": "Outstanding Balance",
+      "payDateTitle": "Next Payment Date",
+      "payAmntTitle": "Next Payment Amount",
+      "balAmnt": "78,206.05",
+      "date": "01 Jan 2020",
+      "payAmnt": "10,000.00",
+      "lnk1": "View Transaction History",
+      "lnk2": "View Repayment Schedule",
+      "lnk3": "Loan Repay"
+    }
+  ],
+
+  "data2": [
+    {
+      "title": "My Deposits",
+      "accNo": "0002101001234 - Lesedi Britt",
+      "balTitle": "Outstanding Balance",
+      "payDateTitle": "Maturity Date",
+      "payAmntTitle": "",
+      "balAmnt": "71,200.05",
+      "date": "01 sep 2021",
+      "payAmnt": "",
+      "lnk1": "Open New",
+      "lnk2": "View Deposit Schedule",
+      "lnk3": "View Transaction History"
+    }
+  ]
+}

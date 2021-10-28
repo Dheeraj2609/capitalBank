@@ -1,10 +1,21 @@
 <div class="mainCntr">
-    <app-hero-banner></app-hero-banner>
+    <div class="heroBanner">
+        <app-hero-banner></app-hero-banner>
+    </div>
     <div class="mainContent">
-        <div class="content1" style="margin: 10px;">
+        <div class="content1">
             <app-quick-links></app-quick-links>
         </div>
-        <div>hello</div>
-        <div>wellcome</div>
+        <div class="content2">
+            <app-detail-card></app-detail-card>
+            <app-detail-card></app-detail-card>
+        </div>
+        <div class="content3">
+            <app-alert-card></app-alert-card>
+            <button (click)="getuser1()">Get</button>
+            <div *ngFor="let db of db1">
+                <p>{{db.title}}</p>
+            </div>
+        </div>
     </div>
 </div>

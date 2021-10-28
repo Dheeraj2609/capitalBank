@@ -1,17 +1,7 @@
-.button {
-    width: 77px;
-    margin-left: 45px;
-}
-
 .button > button {
     font-family: "opensans-bold";
 font-size: 0.75rem;
 line-height: 1.33;
-background-color: #ffffff;
-padding: 7px 10px;
-border-radius: 4px;
-color: #383838;
-border: solid 1.5px #383838;
 cursor: pointer;
 }
 
