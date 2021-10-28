@@ -1,6 +1,6 @@
 <div class="headerCont">
     <div class="headerLogo">
-        <img src="../../assets/images/FMB-CapitalBank-logo.svg" alt="logo" />
+        <img src="../../assets/images/FMB-CapitalBank-logo.svg" alt="logo" routerLink="main" />
     </div>
     <app-navigation></app-navigation>
     <div class="userGreet">
@@ -12,5 +12,5 @@
         <span class="userName">Lesedi Britt</span>
     </div>
     </div>
-    <app-button></app-button>
+    <app-button [itext]="texts" ></app-button>
 </div>

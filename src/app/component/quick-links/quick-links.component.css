@@ -1,0 +1,55 @@
+.qckLnkCntr {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 22px 24px 50px 23px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.qckLnkCntr .qckLnkTxt {
+  font-family: OpenSans-Semibold;
+  margin: 0 0 23px 0;
+  color: #373d3f;
+}
+
+.qckLnkCntr .qckLnks ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.qckLnkCntr .qckLnks ul li {
+    border-top: solid 1px #ebebeb;
+    padding: 15px 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.qckLnkCntr .qckLnks ul li:last-child {
+    border-bottom: solid 1px #ebebeb;
+}
+
+.qckLnkCntr .qckLnks ul li a {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.qckLnkCntr .qckLnks ul li a .lnksTxt {
+    font-family: OpenSans-Light;
+    font-size: 0.875rem;
+    line-height: 1;
+    color: #388800;
+}
+
+.qckLnkCntr .qckLnks ul li a .lnksIcon {
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: bold;
+    color: #388800;
+}

@@ -1,0 +1,63 @@
+.alrtCardCntr {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 22px 13px 20px 26px;
+  border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.alrtCardCntr .alrtHeadingCntr {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.alrtCardCntr .alrtHeadingCntr .alrtHeading {
+  font-family: OpenSans-Semibold;
+  font-size: 1rem;
+  line-height: 1;
+  color: #373d3f;
+}
+
+.alrtCardCntr .alrtDet ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.alrtCardCntr .alrtDet ul li {
+  margin: 0;
+  padding: 12px 0;
+  border-bottom: solid 1px #dedede;
+}
+
+.alrtCardCntr .alrtDet ul li:last-child {
+  border-bottom: none;
+}
+
+.alrtCardCntr .alrtDet ul li a {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.alrtCardCntr .alrtDet ul li a .alrtTxt {
+  font-family: OpenSans-Semibold;
+  font-size: 0.875rem;
+  line-height: normal;
+  color: #388800;
+}
+
+.alrtCardCntr .alrtDet ul li a .notification {
+  font-family: OpenSans-Bold;
+  font-size: 0.75rem;
+  font-weight: bold;
+  line-height: normal;
+  color: #ffffff;
+  padding: 1px 8px 2px 7px;
+  border-radius: 100px;
+  background-color: #fb6644;
+}

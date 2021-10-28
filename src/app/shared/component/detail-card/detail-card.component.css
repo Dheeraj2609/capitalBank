@@ -1,0 +1,155 @@
+p {
+    margin: 0;
+}
+
+.cardMainCntr {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.cardCntr {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 22px 23px 15px;
+}
+
+.cardCntr .cardCntrTxt {
+    font-family: OpenSans-Semibold;
+    margin: 0 0 30px;
+  line-height: 1;
+  color: #373d3f;
+}
+
+.cardCntr .cardCntrTxt {
+    font-family: OpenSans-Semibold;
+    margin: 0 0 30px;
+  line-height: 1;
+  color: #373d3f;
+}
+
+.cardCntr .accNo {
+    font-family: OpenSans-Regular;
+    margin-bottom: 16px;
+    font-size: 0.875rem;
+    line-height: normal;
+    color: #000;
+}
+
+.cardCntr .balDtls {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardCntr .balDtls .dtls .balTxt {
+    display: block;
+    margin-bottom: 5px;
+    font-family: OpenSans-Semibold;
+    font-size: 0.875rem;
+    line-height: normal;
+    color: #9b9b9b;
+}
+
+.cardCntr .balDtls .dtls .balAmnt {
+    font-family: OpenSans-Light;
+  font-size: 1.875rem;
+  line-height: 1;
+  color: #373d3f;
+}
+
+.cardCntr .balDtls .dtls .balAmnt span {
+    display: inline-block;
+    transform: translateY(-3px);
+    font-family: OpenSans-Light;
+  font-size: 0.75rem;
+  padding: 2px 5px;
+  border-radius: 3px;
+  color: #ffffff;
+  background-color: #383838;
+}
+
+.cardCntr .balDtls .dtls .payDate , .cardCntr .balDtls .dtls .amnt {
+    margin-top: 7px;
+    font-family: OpenSans-Regular;
+    font-size: 1.125rem;
+    line-height: 1.67;
+    color: #4a4a4a;
+}
+
+.acntDisp {
+    display: flex;
+}
+
+.acntDisp .acntLink {
+    margin-right: 15px;
+}
+
+.acntDisp .acntLink a {
+    font-family: OpenSans-Semibold;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    line-height: normal;
+    color: #388800;
+}
+
+.acntPage {
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 2px rgba(151, 151, 151, 0.25);
+    padding: 12px 25px;
+}
+
+.acntPage .acntShift {
+    display: flex;
+}
+
+.acntPage .acntShift .noOfAcnt {
+    margin: 0 8px;
+    font-family: OpenSans-Regular;
+    font-size: 0.875rem;
+    line-height: normal;
+    color: #9b9b9b;
+}
+
+.acntPage .acntShift .leftArrow , .acntPage .acntShift .rightArrow {
+    width: 17px;
+    height: 17px;
+    padding: 1px;
+    object-fit: contain;
+}
+
+.acntPage .acntShift .leftArrow > img , .acntPage .acntShift .rightArrow > img {
+    width: inherit;
+    height: inherit;
+    object-fit: inherit;
+}
+
+.acntPage .btnCntr {
+    display: flex;
+    align-items: center;
+}
+
+.acntPage .btnCntr .goToTxt {
+    font-family: OpenSans-Regular;
+  font-size: 0.875rem;
+  line-height: normal;
+  color: #4a4a4a;
+}
+
+::ng-deep .button {
+    margin-left: 15px;
+  }
+
+::ng-deep .button > button {
+    padding: 11px 12px;
+    border-radius: 2px;
+    color: #9b9b9b;
+    box-shadow: 0 2px 0 0 #d3d3d3;
+    border: solid 1px #d3d3d3;
+    background-color: #ececec;
+}
