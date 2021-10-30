@@ -2,6 +2,7 @@
   width: 100%;
   box-sizing: border-box;
   padding: 22px 13px 20px 26px;
+  margin-bottom: 15px;
   border-radius: 3px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
@@ -45,6 +46,7 @@
 }
 
 .alrtCardCntr .alrtDet ul li a .alrtTxt {
+  width: 170px;
   font-family: OpenSans-Semibold;
   font-size: 0.875rem;
   line-height: normal;
@@ -52,6 +54,7 @@
 }
 
 .alrtCardCntr .alrtDet ul li a .notification {
+  height: 16px;
   font-family: OpenSans-Bold;
   font-size: 0.75rem;
   font-weight: bold;

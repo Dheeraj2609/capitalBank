@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { DatabaseInfo2 } from '../../userDb';
 
 @Component({
   selector: 'app-alert-card',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./alert-card.component.css']
 })
 export class AlertCardComponent implements OnInit {
+  
+  @Input() dataReceive?: DatabaseInfo2[];
 
   constructor() { }
 

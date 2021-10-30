@@ -7,15 +7,12 @@
             <app-quick-links></app-quick-links>
         </div>
         <div class="content2">
-            <app-detail-card></app-detail-card>
-            <app-detail-card></app-detail-card>
+            <app-detail-card [dataRec]="db1" ></app-detail-card>
+            <app-detail-card [dataRec]="db2" ></app-detail-card>
         </div>
         <div class="content3">
-            <app-alert-card></app-alert-card>
-            <button (click)="getuser1()">Get</button>
-            <div *ngFor="let db of db1">
-                <p>{{db.title}}</p>
-            </div>
+            <app-alert-card [dataReceive]="db3" ></app-alert-card>
+            <app-alert-card [dataReceive]="db4" ></app-alert-card>
         </div>
     </div>
 </div>

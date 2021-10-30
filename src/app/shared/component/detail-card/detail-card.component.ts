@@ -1,4 +1,5 @@
 import { Component, Input, OnInit, ViewEncapsulation } from '@angular/core';
+import { DatabaseInfo } from 'src/app/shared/userDb';
 
 @Component({
   selector: 'app-detail-card',
@@ -11,8 +12,7 @@ export class DetailCardComponent implements OnInit {
   cardText: string | undefined = "OK";
   acntNo: number | undefined = 1;
 
-  @Input() firstdata:any;
-  @Input() seconddata:any;
+  @Input() dataRec?: DatabaseInfo[];
 
   constructor() { }
 
