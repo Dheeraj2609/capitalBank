@@ -1,25 +1,25 @@
-<div class="alrtCardCntr">
+<div class="alrtCardCntr" *ngFor="let i of dataReceive">
     <div class="alrtHeadingCntr">
-        <span class="alrtHeading"> Email Alerts </span>
+        <span class="alrtHeading"> {{ i.title }} </span>
     </div>
     <div class="alrtDet">
         <ul>
             <li>
                 <a href="" rel="noopener noreferrer">
-                    <span class="alrtTxt">Broadcast Message(s):</span>
-                    <span class="notification"> 0 </span>
+                    <span class="alrtTxt">{{ i.lnk1 }}</span>
+                    <span class="notification"> {{ i.ntf1 }} </span>
                 </a>
             </li>
             <li>
                 <a href="" rel="noopener noreferrer">
-                    <span class="alrtTxt">Unread Mail(s):</span>
-                    <span class="notification"> 0 </span>
+                    <span class="alrtTxt">{{ i.lnk2 }}</span>
+                    <span class="notification"> {{ i.ntf2 }} </span>
                 </a>
             </li>
             <li>
                 <a href="" rel="noopener noreferrer">
-                    <span class="alrtTxt">Unread Alert(s):</span>
-                    <span class="notification"> 0 </span>
+                    <span class="alrtTxt">{{ i.lnk3 }}</span>
+                    <span class="notification"> {{ i.ntf3 }} </span>
                 </a>
             </li>
         </ul>

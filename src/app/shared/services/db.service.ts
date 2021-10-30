@@ -6,18 +6,12 @@ import { HttpClient } from '@angular/common/http';
 })
 export class DbService {
 
-  url = 'http://localhost:3000/data1';
-
-  url1 = 'http://localhost:3000/data2';
+  baseURL = 'http://localhost:3000';
 
   constructor(private http: HttpClient) { }
 
-  getDb() {
-    return this.http.get(this.url);
-  }
-
-  getDb1() {
-    return this.http.get(this.url1);
+  getDb(dataURL: string) {
+    return this.http.get(this.baseURL+dataURL);
   }
 
 }

@@ -1,5 +1,5 @@
 {
-  "data1": [
+  "Loans": [
     {
       "title": "My Loans",
       "accNo": "0002101001234 - Lesedi Britt",
@@ -15,10 +15,10 @@
     }
   ],
 
-  "data2": [
+  "Deposits": [
     {
       "title": "My Deposits",
-      "accNo": "0002101001234 - Lesedi Britt",
+      "accNo": "0002101107898 - John David",
       "balTitle": "Outstanding Balance",
       "payDateTitle": "Maturity Date",
       "payAmntTitle": "",
@@ -29,5 +29,30 @@
       "lnk2": "View Deposit Schedule",
       "lnk3": "View Transaction History"
     }
+  ],
+
+  "Emails": [
+    {
+      "title": "Email Alerts",
+      "lnk1": "Broadcast Message(s):",
+      "ntf1": "10",
+      "lnk2": "Unread Mail(s):",
+      "ntf2": "0",
+      "lnk3": "Unread Alert(s):",
+      "ntf3": "1"
+    }
+  ],
+
+  "IncompleteTrans": [
+    {
+      "title": "Incompleted Transactions",
+      "lnk1": "One Time transaction pending to be processed",
+      "ntf1": "0",
+      "lnk2": "Failed Transactions",
+      "ntf2": "0",
+      "lnk3": "Transactions",
+      "ntf3": "2"
+    }
   ]
+
 }

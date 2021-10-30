@@ -100,6 +100,7 @@ p {
 .acntPage {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     border-top: solid 2px rgba(151, 151, 151, 0.25);
     padding: 12px 25px;
 }
